@@ -17,9 +17,12 @@ print('2. Operations with sets')
 
 opc = input()
 
+while opc != "1" and opc != "2":
+    print("I don't recognize your operation. Please type '1' or '2'.")
+    print("Choose one of the options.")
+    opc = input()
+
 if opc == "1":
     data()
 elif opc == "2":
     sets()
-else:
-    print("Please, choose one of the options.")
